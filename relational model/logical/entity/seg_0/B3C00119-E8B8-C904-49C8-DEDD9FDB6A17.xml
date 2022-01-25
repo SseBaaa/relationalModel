@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3C00119-E8B8-C904-49C8-DEDD9FDB6A17" name=" Adresa_PP">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:20 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Adresa_PP" id="AEA46ECD-E1AD-BA96-ED47-057D2699B0B2">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:20 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="0595F4C0-90DB-024B-F966-2A4D7CF2EC01">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:20 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_ulice" id="AB37AA33-75A7-2CC4-0ACF-175C5351637A">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:20 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Poštanski_Broj" id="3872D79E-DB42-D802-AFE0-42DBE10779D2">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:20 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grad" id="E4D65E57-1571-7E56-C590-5B797F5EB9CB">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:20 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="država" id="6CCC4D40-14C9-6178-C935-DF2C7E7E200D">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:20 UTC</createdTime>
+<generatorID>70E24B5A-F347-0BD8-8DCA-12AE1D445C8C</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail" id="58FB19A5-AC5C-7915-C85C-96E30933FFDD">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:35:52 UTC</createdTime>
+<generatorID>CCD83C35-61B6-DCF7-FF58-EFCD0EC8AAE4</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<referedAttribute>C6CC62D2-BC21-8261-4F0A-C7196F1C39D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="470A2346-7FAB-591F-0E27-6DD239103CE7" name="Adresa_Kupca PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:20 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEA46ECD-E1AD-BA96-ED47-057D2699B0B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

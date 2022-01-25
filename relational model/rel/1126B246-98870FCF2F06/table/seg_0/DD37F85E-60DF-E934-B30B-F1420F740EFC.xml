@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD37F85E-60DF-E934-B30B-F1420F740EFC" name="Narudzba">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>7A7CFF87-C36D-C7BA-E8BC-1BEB3CFC6274</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_narudzba" id="2D40066E-9927-71DD-0833-28859F7EDC2E">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>2C935205-A7AB-DA73-F51C-DCDD7DB6ED67</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="5EC0FD37-E6D7-2D15-D8F9-5EBF1F3FBC22">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>7EE66A49-F880-6880-BF7D-60155A66B359</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijeme" id="181E14E1-5062-1AEB-95F4-279CC05B8274">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>03E4C22A-9493-5ECE-BDFC-C2A17AB60ACF</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naruceni_artikli" id="EFDAF920-FE7F-AFD6-071E-55F50AC3787A">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>E072D2A8-EF59-9C27-02D9-B60B5581297B</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kupac_ID_Kupca" id="8E357323-E336-13E0-5887-917B16507871">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>E54509E0-62AD-7310-C88B-9F64D18AE0BA</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C563470E-FF25-925B-EF44-D909E4D29062" referredColumn="446A06FB-941E-B310-25CE-2D863575B60B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35CDEFE3-E46A-B1BE-E580-B0048700EED5" name="Narudzba_PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>B5A45D93-6B80-DA1E-CEEA-F51C8D24D14C</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D40066E-9927-71DD-0833-28859F7EDC2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0042876-522C-23AD-1F0B-9CE54CD9B9CA" name="Narudzba_Kupac_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:38 UTC</createdTime>
+<generatorID>E80B5816-107D-1185-B9BE-8D919A1D4E23</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E357323-E336-13E0-5887-917B16507871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

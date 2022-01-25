@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="113592D3-8B2C-5543-BF4C-346A19FA050A" name="Artikl">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>46511839-2EFA-6B84-057C-833A9D89FF81</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_artikla" id="116D6C1B-0E55-BFB9-BD1C-85A91C1A4645">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>D453AFD2-A097-02EF-E520-6EFA57A4F75C</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="06A093CE-0D1F-7F4A-64EC-CD7ECDF59698">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>5A799376-775E-4B99-A7AD-6287C2808E24</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="7DCADED1-5B28-D854-0581-D09ADAA8200D">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>A79B6253-77EA-6A88-4D3A-B00308EAB8FA</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kategorija" id="77F3850B-FAAE-0D54-598A-F6911C38705B">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>931FC0EF-7B24-A52D-E307-D42E9BF05BFE</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Boja" id="9F400F7D-7C6F-F186-D282-8F25687FBDDA">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>2CE80E9A-987C-5BF7-C7DA-DEF0A1B3E0CB</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Velicina" id="0F6D524B-EC1D-72E7-7D88-00E85F20C8B6">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>A61E2546-46AD-60FA-FAD9-6E9865AB7A99</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skladiste_ID_skladista" id="37802169-2305-B97A-8910-B335FB8D78C6">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>85352A9D-69DF-60DF-055D-48CDAABEFB5F</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B10766FF-7458-7D0A-03E1-A4C16DF2F9C9" referredColumn="0215DBAE-3C59-C652-FFC7-DCEA4FC96DC4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8DABF32-B419-6C6A-6B97-EC4481D1D83B" name="Artikl_PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>30281412-FB72-13DC-4841-272D89C01810</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="116D6C1B-0E55-BFB9-BD1C-85A91C1A4645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BBDABAA-B463-D091-2700-D5CAC0A30E50" name="Artikl_Skladiste_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:38 UTC</createdTime>
+<generatorID>19209E86-F7CC-D215-8327-3178E139AFD3</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37802169-2305-B97A-8910-B335FB8D78C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

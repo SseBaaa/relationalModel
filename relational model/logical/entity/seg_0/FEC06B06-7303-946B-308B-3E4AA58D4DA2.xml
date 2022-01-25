@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEC06B06-7303-946B-308B-3E4AA58D4DA2" name=" Adresa_Kupcav1">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:17 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Adresa_Kupca" id="8068C69D-858A-1FA3-DF7A-0FA61FC7436B">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:17 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="87740E16-7951-A2F9-3921-B33B325FE209">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:17 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kućni_Broj" id="A7F80709-CCC0-0AF9-14E7-36B84DDF1A77">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:17 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Poštanski_Broj" id="4B3D0DBF-B83D-595B-B39F-F3036F38AA4B">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:17 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grad" id="BDFD76F8-8CC0-EE0F-63C6-8A54CF4B6F94">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:17 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Kupca" id="51803CDE-5C3D-DC2F-852E-00F4F270A419">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:17 UTC</createdTime>
+<generatorID>70E24B5A-F347-0BD8-8DCA-12AE1D445C8C</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89CF0169-8D69-5519-2946-0C01410A4632" name="Adresa_Kupca PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:34:17 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8068C69D-858A-1FA3-DF7A-0FA61FC7436B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

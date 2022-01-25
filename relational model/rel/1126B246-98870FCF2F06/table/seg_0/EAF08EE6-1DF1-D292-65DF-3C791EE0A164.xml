@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAF08EE6-1DF1-D292-65DF-3C791EE0A164" name="Adresa_Kupca">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>1B546E4B-F42F-DDB7-ACE9-E336D9338A1B</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Adresa_Kupca" id="0478F903-FED9-E255-6010-F51F34D2545F">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>B08FCE5F-3A94-46A8-1735-1C03170C11C3</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="E483275E-A849-A628-D635-857E51D563A8">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>2B4E6D96-1783-F106-C380-141820AFCD28</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kućni_Broj" id="87F654AF-67E3-0171-C048-0BD105181226">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>CE746C4E-252A-CE02-C6B0-04D313375EE3</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poštanski_Broj" id="D606C165-3162-4D77-4434-037158CA6183">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>A4B08431-E21C-5885-F7F2-BDF34E9ADE05</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad" id="BCF9974C-2201-6847-45BB-ACC9A860AED3">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>CBACA90B-0781-5296-D4B7-B1018D2A4CC6</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kupac_ID_Kupca" id="39E3A59D-FC26-6F89-C86D-83BE3F235028">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>86B09092-0C64-7783-19F2-DFEBF032BFD0</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF4D1699-BE37-72D0-8513-2580669BEB32" referredColumn="446A06FB-941E-B310-25CE-2D863575B60B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F66CD1F-171D-8AC7-23D6-AB61044E88D7" name="Adresa_Kupca_PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>13EFE8D6-908B-255C-1A32-73286EF19F22</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0478F903-FED9-E255-6010-F51F34D2545F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AB494DF-3F07-2BC4-C94E-44D5B9C2C34E" name="Adresa_Kupca_Kupac_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:38 UTC</createdTime>
+<generatorID>70E24B5A-F347-0BD8-8DCA-12AE1D445C8C</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E3A59D-FC26-6F89-C86D-83BE3F235028"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

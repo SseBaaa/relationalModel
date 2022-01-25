@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2E6819E-D1F9-E63B-7594-60F642151FA4" name="Naruceni_artikli">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>EEC1F547-A8C3-F24F-D3B3-DF8B949A2317</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="narucena_kolicina" id="0CC49821-5A58-4E41-F8EB-DCD3C229F974">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>D8DCD813-C51C-8461-303C-22FC1EC6435D</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isporucena_kolicina" id="19F42309-4361-FFA7-F967-E649B3B61DA7">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>C5FAB3DF-B54D-5276-F1D9-92FDA4D48476</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artikl_ID_artikla" id="F647BC7D-4377-FCE5-9EA8-F1D45FA6E696">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>9D5059E1-50A6-D5C6-DFE8-FC349520A082</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFE0E576-F304-70E8-4DFC-A443C346A369" referredColumn="116D6C1B-0E55-BFB9-BD1C-85A91C1A4645"/>
+</associations>
+</Column>
+<Column name="Narudzba_ID_narudzba" id="F571A11A-F0F9-639E-5A40-01B57BA3A8AF">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>6E223A16-FF89-4F0F-E4C1-8DDAC12099E9</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF310B61-4F64-0165-9838-D173846546F5" referredColumn="2D40066E-9927-71DD-0833-28859F7EDC2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB822E28-4263-19C0-1F29-F88019B84881" name="Naruceni_artikli_PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>0164025C-D6F5-B76C-2C1A-B16D939865D3</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F647BC7D-4377-FCE5-9EA8-F1D45FA6E696"/>
+<colUsage columnID="F571A11A-F0F9-639E-5A40-01B57BA3A8AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEF16209-770C-E44E-1326-19C58978FA8D" name="Naruceni_artikli_Artikl_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:38 UTC</createdTime>
+<generatorID>C2188626-974E-DE1A-6AA3-DD5586E0EE70</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F647BC7D-4377-FCE5-9EA8-F1D45FA6E696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87A7548D-F73C-C321-D087-6BE1909C45B9" name="Naruceni_artikli_Narudzba_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:38 UTC</createdTime>
+<generatorID>CEBD2011-01C4-BE03-1128-CE9F406ED009</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F571A11A-F0F9-639E-5A40-01B57BA3A8AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

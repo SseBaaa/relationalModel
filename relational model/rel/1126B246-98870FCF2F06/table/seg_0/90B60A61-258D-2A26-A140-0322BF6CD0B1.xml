@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90B60A61-258D-2A26-A140-0322BF6CD0B1" name="Prodajni_Predstavnik">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>238C5C87-C56E-4302-AEE5-D4BF2A4DDB50</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ime" id="F69726EF-EDF5-594D-19B1-C42C998FA891">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>9034BFE5-7A45-D472-B03B-909A5EB338E4</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="08F905C5-4574-8ADE-9255-84CFA17A2FB8">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>C071BFBE-F1BE-74CF-1D83-3DD6FE54FE1D</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="820090AA-0E43-BACF-5D60-B5D41E76CFA8">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>0FDB2BFF-B57D-1BF4-B9F3-C05AEC4FDCE8</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kućni_Broj" id="093FF498-A90A-8E60-DFDB-8D3920CABE6E">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>281AAD2C-8F71-9746-2721-0F3BF21B91DC</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poštanski_Broj" id="FC2D7153-088E-0C88-418D-10BED971017A">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>C436F3D7-1E33-4D43-E4BA-FB5BAD3D457A</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad" id="43DD8AB9-11E1-E79A-2940-44F4A424D0B2">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>9E349A06-3736-76C2-1D5C-4969F63C0929</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_telefona" id="660D1702-850A-0372-35E1-44275BCCDD63">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>29603262-74FF-3320-D12E-7FBFD3FC335F</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="237952F6-D78C-3D6A-0511-8534A569C400">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>C6CC62D2-BC21-8261-4F0A-C7196F1C39D8</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postotak_Provizije" id="13655006-875D-C243-7A22-725585CD50C1">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>1FF19741-4E40-72CE-314E-2887B76D8BE5</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodajni_Predstavnik_e-mail" id="8370F3CE-F80F-F0B6-7635-73572EF9E824">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>6CF1D1CF-9077-C16E-E972-D9E913F8E0C1</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79CFC104-EA37-9207-1A81-FF6B2DF71263" referredColumn="237952F6-D78C-3D6A-0511-8534A569C400"/>
+</associations>
+</Column>
+<Column name="Adresa_PP_ID_Adresa_PP" id="D1F144A2-3AB4-5A80-E539-DFB532330083">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>3C86B814-E4B6-9EFA-543B-A4C078682A83</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1EB6517-077E-7ACC-E7B7-F5F7AFAE6B29" referredColumn="1C2FCFF0-0F9C-1A64-2402-9FAF118DD2F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCF157DD-DB07-7D8B-EBCE-B9C4F30BB11C" name="Prodajni_Predstavnik_PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>806530FE-CE3F-9A7B-1B7C-BFF020FDE481</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="237952F6-D78C-3D6A-0511-8534A569C400"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="126DCE5C-7F41-C0F7-ACEA-9AB74164B24F" name="Prodajni_Predstavnik__IDX">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CCD83C35-61B6-DCF7-FF58-EFCD0EC8AAE4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D1F144A2-3AB4-5A80-E539-DFB532330083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="932E2221-52F8-4D73-D884-B458DC3DEBCF" name="Prodajni_Predstavnik_Prodajni_Predstavnik_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:38 UTC</createdTime>
+<generatorID>1205AC3F-1B2F-F16A-D196-E6A7D4769A6B</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8370F3CE-F80F-F0B6-7635-73572EF9E824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1692F33A-7DC0-9422-E669-F011DE2EA958" name="Prodajni_Predstavnik_Adresa_PP_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>CCD83C35-61B6-DCF7-FF58-EFCD0EC8AAE4</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1F144A2-3AB4-5A80-E539-DFB532330083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

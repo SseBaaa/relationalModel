@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA177BCE-41F5-0AE0-F9BA-52011D54C195" name="Povijest_cijena">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>A83BC1D2-C1F1-5436-E410-FD92BA3B076A</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Datum_promjene" id="8E070089-84F0-7616-E059-12C9E084DDF1">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>28611743-6B32-1D57-90C5-8026CC3C7FDC</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijeme_promjene" id="43A4ED53-9FCB-0BEF-A7AE-BF54C1411F6A">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>E5EF7814-E1C2-6B39-F690-B58CBD548F57</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena" id="721EF5EE-7790-1139-4808-FC4CA2C44C7F">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>D00C79C5-EB92-CED9-8877-EE1474911C93</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_isteka" id="E6FB315B-DB7B-3EFC-3C71-DF875333674D">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>48F7D79B-C806-8BCA-EDF1-B0B6C8E78259</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijeme_isteka" id="29DE327B-E9E1-78C6-B44C-152ED88A7C29">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>4EDB4614-0616-B84E-47B8-F7BAA701CBC3</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artikl_ID_artikla" id="776C962C-ADF1-BE84-A710-207353CD8459">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>66DA5BE5-2838-3991-B232-07136D515E45</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E86BDD10-18AB-C67C-D75A-38610C1B8868" referredColumn="116D6C1B-0E55-BFB9-BD1C-85A91C1A4645"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60EAC7CD-2300-F5E7-1778-7984FC276131" name="Povijest_cijena_PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>311E671F-6E36-A14C-FE0F-6AF43D4A9643</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E070089-84F0-7616-E059-12C9E084DDF1"/>
+<colUsage columnID="43A4ED53-9FCB-0BEF-A7AE-BF54C1411F6A"/>
+<colUsage columnID="776C962C-ADF1-BE84-A710-207353CD8459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBE67A32-95FF-A272-E369-14F8D7ECCBDE" name="Povijest_cijena_Artikl_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:38 UTC</createdTime>
+<generatorID>499C3803-0986-30FC-A658-ED1419383482</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="776C962C-ADF1-BE84-A710-207353CD8459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

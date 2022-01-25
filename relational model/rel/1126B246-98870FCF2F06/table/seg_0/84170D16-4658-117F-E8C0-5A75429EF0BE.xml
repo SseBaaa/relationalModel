@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84170D16-4658-117F-E8C0-5A75429EF0BE" name="Individualni_Kupac">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>0F410CE0-6D0B-B319-9495-7ADE1E26C2B1</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kupca" id="E1320FC1-0FD3-63A4-E318-C6BC63387E46">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>8C386EE4-94AF-AADF-8236-76B0646AC041</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73EBF7B8-CE73-C224-0F13-348883DB2B1B" referredColumn="446A06FB-941E-B310-25CE-2D863575B60B"/>
+</associations>
+</Column>
+<Column name="Broj_Kartice_Vrijednosti" id="3972B191-7923-6B7D-D08D-578FAE2A1AB6">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>CF800539-3648-AE9B-7CE5-3A06C1EB4EF0</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ekipa_ID_Ekipe" id="53E82048-E0D0-9713-9EA0-D8B548DC81F8">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>700BEFEE-D07C-D4BF-5A21-041267C1FF35</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9387AFB-938D-6FD7-91CF-5478B088C8A0" referredColumn="61B9D79A-E30F-7302-0D63-E74726BA38E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8557F11-23D6-AC4D-2348-D597E2410E6C" name="Individualni_Kupac_PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>BA1FEFE3-1EB6-0E8E-0D1A-32C99A9EBAE0</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1320FC1-0FD3-63A4-E318-C6BC63387E46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="148FC354-7A04-DC90-430D-03994582DEA8" name="Individualni_Kupac__IDX">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:38 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>428C3196-8F19-11C9-4B16-0A9A37FA8A18</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="53E82048-E0D0-9713-9EA0-D8B548DC81F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4AC458A-F9C3-1330-279F-B7C0D6E00808" name="Individualni_Kupac_Kupac_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>27CA250D-045F-0D74-ED17-4F8D5C605A66</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1320FC1-0FD3-63A4-E318-C6BC63387E46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C840FEB3-E6B0-6935-4FAC-27C15EB5959A" name="Individualni_Kupac_Ekipa_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>428C3196-8F19-11C9-4B16-0A9A37FA8A18</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53E82048-E0D0-9713-9EA0-D8B548DC81F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

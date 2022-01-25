@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KUP-NAR" directorySegmentName="seg_0" id="E80B5816-107D-1185-B9BE-8D919A1D4E23">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 11:34:54 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>BA1FEFE3-1EB6-0E8E-0D1A-32C99A9EBAE0</sourcePk>
+<targetPk>B5A45D93-6B80-DA1E-CEEA-F51C8D24D14C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FE5C800B-06EB-80D4-913B-1D8A11CED8E0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A7CFF87-C36D-C7BA-E8BC-1BEB3CFC6274</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E7440B8-C075-BA66-1E9C-E028CEA28E98" name="Predstavnik_Ekipe">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>E376E641-0E61-18AE-15CC-3D470C490038</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kupca" id="0EB61E6D-E68B-45FD-B1D2-047CC4DAB054">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>8C386EE4-94AF-AADF-8236-76B0646AC041</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93A1E519-4A02-7BED-3687-282095B7FD4C" referredColumn="446A06FB-941E-B310-25CE-2D863575B60B"/>
+</associations>
+</Column>
+<Column name="Tim" id="254D17C1-3798-1745-13C0-BD2AFE4F6952">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>C3866427-D616-6D3D-AB25-F831D62CBD08</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90F49255-C233-0DF2-609A-2077CD92FF03" name="Predstavnik_Ekipe_PK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>BA1FEFE3-1EB6-0E8E-0D1A-32C99A9EBAE0</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB61E6D-E68B-45FD-B1D2-047CC4DAB054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD8B6056-E98E-FE6B-189E-9844F885C00A" name="Predstavnik_Ekipe_Kupac_FK">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 12:02:37 UTC</createdTime>
+<generatorID>630F40FB-2AB0-8290-A5D1-D5AC3D4CBBA1</generatorID>
+<ownerDesignName>relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB61E6D-E68B-45FD-B1D2-047CC4DAB054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

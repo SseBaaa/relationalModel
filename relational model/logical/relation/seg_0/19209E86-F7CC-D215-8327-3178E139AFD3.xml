@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARK-SKL" directorySegmentName="seg_0" id="19209E86-F7CC-D215-8327-3178E139AFD3">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 11:32:53 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<sourcePk>71891BE9-F9B2-BE82-2994-0B0C74E82DF1</sourcePk>
+<targetPk>30281412-FB72-13DC-4841-272D89C01810</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F5A4226-E4E1-06E0-BC6E-6F3173BB8531</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>46511839-2EFA-6B84-057C-833A9D89FF81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

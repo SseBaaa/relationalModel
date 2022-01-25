@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARKNAR" directorySegmentName="seg_0" id="C2188626-974E-DE1A-6AA3-DD5586E0EE70">
+<createdBy>sebas</createdBy>
+<createdTime>2022-01-11 11:33:32 UTC</createdTime>
+<ownerDesignName>relational model</ownerDesignName>
+<engineerTo>
+<item key="1126B246-F23D-EFB6-E2C8-98870FCF2F06" value="true"/>
+</engineerTo>
+<sourcePk>30281412-FB72-13DC-4841-272D89C01810</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46511839-2EFA-6B84-057C-833A9D89FF81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EEC1F547-A8C3-F24F-D3B3-DF8B949A2317</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
